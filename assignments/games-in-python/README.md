@@ -1,46 +1,35 @@
+# 📘 Assignment: Hangman Game Challenge
 
-# 🎮 Hangman Game Challenge
+## 🎯 Objective
 
-## Overview
+Build a classic Hangman game in Python that uses strings, loops, and user input to create a playable game with clear win and lose conditions.
 
-Build a classic Hangman game in Python using strings, loops, and user input. The game should let a player guess letters to reveal a hidden word before they run out of attempts.
+## 📝 Tasks
 
-## Learning Goals
+### 🛠️ Create the game logic
 
-- Practice string manipulation
-- Use loops and conditionals effectively
-- Work with random selection and user input
-- Build a complete game flow with win/lose logic
+#### Description
+Write a Python program that lets a player guess letters in a hidden word. The game should continue until the player either solves the word or runs out of attempts.
 
-## Project Requirements
+#### Requirements
+Completed program should:
 
-Your game must:
-- Randomly select a word from a predefined list
-- Accept letter guesses from the player
-- Display the current word progress using underscores and revealed letters (for example: _ _ _)
-- Track remaining incorrect guesses
-- End the game when the player guesses the word correctly or runs out of attempts
-- Show a clear win or lose message at the end
+- Choose a word from a predefined list at random
+- Display the hidden word as blanks and reveal correctly guessed letters
+- Accept user input for one letter at a time
+- Track incorrect guesses and remaining attempts
+- Prevent repeated guesses from counting twice
+- End the game with a clear win or lose message
 
-## Suggested Workflow
+### 🛠️ Improve the player experience
 
-1. Create a list of words and choose one at random
-2. Display blanks for each letter in the word
-3. Prompt the player for a guess
-4. Update the revealed letters and remaining attempts
-5. Repeat until the word is solved or the player loses
+#### Description
+Enhance the game so it feels polished and easier to play, while keeping the logic clear and reliable.
 
-## Acceptance Criteria
+#### Requirements
+Completed program should:
 
-- The game runs without errors
-- The player can guess letters repeatedly
-- The program correctly tracks guessed letters and remaining attempts
-- The game ends with an appropriate success or failure message
-- The output is easy to follow and user-friendly
-
-## Stretch Ideas
-
-- Add a replay option after each round
-- Prevent duplicate guesses
-- Show the guessed letters so far
-- Add a difficulty level with different word lengths or attempt counts
+- Show the letters already guessed
+- Display a simple, readable game state after each turn
+- Handle invalid input such as empty or multiple-character entries
+- Allow the player to start a new round after the game ends
