@@ -72,6 +72,20 @@
           "type": "python"
         }
       ]
+    },
+    {
+      "id": "python-file-organizer",
+      "title": "Python File Organizer",
+      "description": "Sort files into folders by extension using Python automation skills",
+      "path": "assignments/python-file-organizer",
+      "dueDate": "2026-10-01",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "starter-code.py",
+          "type": "python"
+        }
+      ]
     }
   ]
 }
